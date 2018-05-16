@@ -55,9 +55,10 @@
 }
 
 #grafica1{
-  width: 100%;
-  margin-top: 30px;
+  width: 74%;
   margin-bottom: 30px;
+  max-width: 74%;
+  margin-left: calc(74% - 60%);
 }
 
 #graficas{
@@ -87,10 +88,10 @@
 }
 
 .tarjeta{
-  width: 30%;
+  width: 95%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 }
 .nombreR{
   font-size: 15px;
