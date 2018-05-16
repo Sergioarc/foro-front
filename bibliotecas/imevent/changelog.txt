@@ -1,0 +1,28 @@
+Version 1.6
+    - Added Video Background page
+
+Version 1.5
+    - Updated prettyPhoto to 3.1.6
+
+Version 1.4
+	- Festival Templates (New Year, X’mas, Halloween,Thanks Giving Template Added
+	- Paypal Payment option added
+	- 3 Coming Soon Page Added
+	- 2 404 Error Pages Added
+	- Added Map pointer
+	- Ability to have images in circle and square too
+	- Multipage changes
+
+Version 1.3
+	- Media query fix
+	- Updated documentation
+
+Version 1.2
+	- Bug fix
+	- RTL fix
+
+Version 1.1
+	- Bug fix
+
+Version 1.0
+	Release
