@@ -1,0 +1,81 @@
+#resumen{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#column1{
+  width: 44%;
+  height: 600px;
+  background-color: rgba(13,29,49,0.8);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#column2{
+  width: 48%;
+  height: 600px;
+  background-color: rgba(13,29,49,0.8);
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow-y: scroll;
+}
+
+#column3{
+  width: 95%;
+  height: 400px;
+  background-color: rgba(13,29,49,0.8);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.othercss{
+  padding-bottom: 0px !important;
+}
+
+#grafica1{
+  width: 100%;
+  margin-top: 30px;
+}
+
+#graficas{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#graficas img{
+  width: 40%;
+  height: 95%;
+}
+
+.circulos{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.tarjeta{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nombreR{
+  font-size: 15px;
+  color: whitesmoke;
+  word-break: break-all;
+}
