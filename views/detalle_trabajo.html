@@ -23,7 +23,6 @@
     <link href="../public/assets/css/theme.css" rel="stylesheet">
     <link href="../public/assets/css/custom.css" rel="stylesheet">
 
-
     <!-- CSS Customize by Cheko or Ale!-->
     <link href="../public/css/evaluacion_revisor.css" rel="stylesheet">
 
@@ -213,7 +212,7 @@
                     </h3>
                     <img src="../public/img/arrowdown.png" alt="">
                   </div>
-                  <div id="hideTrabajo" class="panel panel-default" style="">
+                  <div id="hideTrabajo" class="panel panel-default" style="display:none;">
                       <h1 class="page-head-line"></h1>
                       <div class="panel-body">
                           <div class="row">
@@ -441,6 +440,263 @@
                     </h3>
                     <img src="../public/img/arrowdown.png" alt="">
                   </div>
+                  <div id="hideEvaluacion" class="panel panel-default" style="display:none;">
+                    <div class="panel-body">
+                        <section class="rubro" id="seccion1">
+                          <p class="textRubro">CALIDAD DE RESUMEN</p>
+                          <img class="arrow-black" src="../public/img/arrowdownblack.png" alt="">
+                        </section>
+                        <section class="todosRubros" id="rubro1" style="display:none;">
+                            <form action="">
+                              Calificación: <input />
+                              <br>
+                              <br>
+                              <input type="radio" name="calidad" value="male">
+                              1. No existe ni congruencia en las ideas y tampoco hay referente teórico
+                              entre los apartados. La ortografía tiene más de dos errores.
+                              <br>
+                              <br>
+                              <input type="radio" name="calidad" value="female">
+                              2. Existe orden en las ideas. No existe congruencias entre los apartados
+                              y no hay referente teórico en los mismos. La ortografía tiene más de dos errores.
+                              <br>
+                              <br>
+                              <input type="radio" name="calidad" value="other">
+                              3. Existe orden en las ideas Las ideas son congruentes  entre cada uno
+                              de los apartados. No existe referente teórico en los apartados. La ortografía tiene
+                              mas de dos errores.
+                              <br>
+                              <br>
+                              <input type="radio" name="calidad" value="other">
+                              4. Existe orden en las ideas. Las idean son congruentes entre cada uno de los
+                              apartados. Existen referente teórico en los apartados. La ortografía tiene menos
+                              de dos errores.
+                              <br>
+                              <br>
+                              <input type="radio" name="calidad" value="other">
+                              5. Existe orden en las ideas. Las ideas son congruentes entre cada uno de los
+                              apartados. Su referente teórico es explícito en los apartados. Sin errores en la
+                              ortigrafía.
+                              <br>
+                            </form>
+                        </section>
+                        <section class="rubro" id="seccion2">
+                          <p class="textRubro">ORIGINALIDAD</p>
+                          <img class="arrow-black" src="../public/img/arrowdownblack.png" alt="">
+                        </section>
+                        <section class="todosRubros" id="rubro2" style="display:none;">
+                          <form action="">
+                            <input type="radio" name="originalidad" value="male">
+                            1. No existe ni congruencia en las ideas y tampoco hay referente teórico
+                            entre los apartados. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="originalidad" value="female">
+                            2. Existe orden en las ideas. No existe congruencias entre los apartados
+                            y no hay referente teórico en los mismos. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="originalidad" value="other">
+                            3. Existe orden en las ideas Las ideas son congruentes  entre cada uno
+                            de los apartados. No existe referente teórico en los apartados. La ortografía tiene
+                            mas de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="originalidad" value="other">
+                            4. Existe orden en las ideas. Las idean son congruentes entre cada uno de los
+                            apartados. Existen referente teórico en los apartados. La ortografía tiene menos
+                            de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="originalidad" value="other">
+                            5. Existe orden en las ideas. Las ideas son congruentes entre cada uno de los
+                            apartados. Su referente teórico es explícito en los apartados. Sin errores en la
+                            ortigrafía.
+                            <br>
+                          </form>
+                        </section>
+                        <section class="rubro" id="seccion3">
+                          <p class="textRubro">CALIDAD METODOLÓGICA (METODOLOGÍAS CUANTITATIVAS)</p>
+                          <img class="arrow-black" src="../public/img/arrowdownblack.png" alt="">
+                        </section>
+                        <section class="todosRubros" id="rubro3" style="display:none;">
+                          <form action="">
+                            <input type="radio" name="cuantitativas" value="male">
+                            1. No existe ni congruencia en las ideas y tampoco hay referente teórico
+                            entre los apartados. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="cuantitativas" value="female">
+                            2. Existe orden en las ideas. No existe congruencias entre los apartados
+                            y no hay referente teórico en los mismos. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="cuantitativas" value="other">
+                            3. Existe orden en las ideas Las ideas son congruentes  entre cada uno
+                            de los apartados. No existe referente teórico en los apartados. La ortografía tiene
+                            mas de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="cuantitativas" value="other">
+                            4. Existe orden en las ideas. Las idean son congruentes entre cada uno de los
+                            apartados. Existen referente teórico en los apartados. La ortografía tiene menos
+                            de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="cuantitativas" value="other">
+                            5. Existe orden en las ideas. Las ideas son congruentes entre cada uno de los
+                            apartados. Su referente teórico es explícito en los apartados. Sin errores en la
+                            ortigrafía.
+                            <br>
+                          </form>
+                        </section>
+                        <section class="rubro" id="seccion4">
+                          <p class="textRubro">CALIDAD METODOLÓGICA (METODOLOGÍAS CUALITATIVAS)</p>
+                          <img class="arrow-black" src="../public/img/arrowdownblack.png" alt="">
+                        </section>
+                        <section class="todosRubros" id="rubro4" style="display:none;">
+                          <form action="">
+                            <input type="radio" name="cualitativas" value="male">
+                            1. No existe ni congruencia en las ideas y tampoco hay referente teórico
+                            entre los apartados. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="cualitativas" value="female">
+                            2. Existe orden en las ideas. No existe congruencias entre los apartados
+                            y no hay referente teórico en los mismos. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="cualitativas" value="other">
+                            3. Existe orden en las ideas Las ideas son congruentes  entre cada uno
+                            de los apartados. No existe referente teórico en los apartados. La ortografía tiene
+                            mas de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="cualitativas" value="other">
+                            4. Existe orden en las ideas. Las idean son congruentes entre cada uno de los
+                            apartados. Existen referente teórico en los apartados. La ortografía tiene menos
+                            de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="cualitativas" value="other">
+                            5. Existe orden en las ideas. Las ideas son congruentes entre cada uno de los
+                            apartados. Su referente teórico es explícito en los apartados. Sin errores en la
+                            ortigrafía.
+                            <br>
+                          </form>
+                        </section>
+                        <section class="rubro" id="seccion5">
+                          <p class="textRubro">CALIDAD METODOLÓGICA (METODOLOGÍAS MIXTAS)</p>
+                          <img class="arrow-black" src="../public/img/arrowdownblack.png" alt="">
+                        </section>
+                        <section class="todosRubros" id="rubro5" style="display:none;">
+                          <form action="">
+                            <input type="radio" name="mixtas" value="male">
+                            1. No existe ni congruencia en las ideas y tampoco hay referente teórico
+                            entre los apartados. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="mixtas" value="female">
+                            2. Existe orden en las ideas. No existe congruencias entre los apartados
+                            y no hay referente teórico en los mismos. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="mixtas" value="other">
+                            3. Existe orden en las ideas Las ideas son congruentes  entre cada uno
+                            de los apartados. No existe referente teórico en los apartados. La ortografía tiene
+                            mas de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="mixtas" value="other">
+                            4. Existe orden en las ideas. Las idean son congruentes entre cada uno de los
+                            apartados. Existen referente teórico en los apartados. La ortografía tiene menos
+                            de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="mixtas" value="other">
+                            5. Existe orden en las ideas. Las ideas son congruentes entre cada uno de los
+                            apartados. Su referente teórico es explícito en los apartados. Sin errores en la
+                            ortigrafía.
+                            <br>
+                          </form>
+                        </section>
+                        <section class="rubro" id="seccion6">
+                          <p class="textRubro">TRASCENDENCIA</p>
+                          <img class="arrow-black" src="../public/img/arrowdownblack.png" alt="">
+                        </section>
+                        <section class="todosRubros" id="rubro6" style="display:none;">
+                          <form action="">
+                            <input type="radio" name="trascendencia" value="male">
+                            1. No existe ni congruencia en las ideas y tampoco hay referente teórico
+                            entre los apartados. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="trascendencia" value="female">
+                            2. Existe orden en las ideas. No existe congruencias entre los apartados
+                            y no hay referente teórico en los mismos. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="trascendencia" value="other">
+                            3. Existe orden en las ideas Las ideas son congruentes  entre cada uno
+                            de los apartados. No existe referente teórico en los apartados. La ortografía tiene
+                            mas de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="trascendencia" value="other">
+                            4. Existe orden en las ideas. Las idean son congruentes entre cada uno de los
+                            apartados. Existen referente teórico en los apartados. La ortografía tiene menos
+                            de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="trascendencia" value="other">
+                            5. Existe orden en las ideas. Las ideas son congruentes entre cada uno de los
+                            apartados. Su referente teórico es explícito en los apartados. Sin errores en la
+                            ortigrafía.
+                            <br>
+                          </form>
+                        </section>
+                        <section class="rubro" id="seccion7">
+                          <p class="textRubro">ASPECTOS ÉTICOS</p>
+                          <img class="arrow-black" src="../public/img/arrowdownblack.png" alt="">
+                        </section>
+                        <section class="todosRubros" id="rubro7" style="display:none;">
+                          <form action="">
+                            <input type="radio" name="aspectos" value="male">
+                            1. No existe ni congruencia en las ideas y tampoco hay referente teórico
+                            entre los apartados. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="aspectos" value="female">
+                            2. Existe orden en las ideas. No existe congruencias entre los apartados
+                            y no hay referente teórico en los mismos. La ortografía tiene más de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="aspectos" value="other">
+                            3. Existe orden en las ideas Las ideas son congruentes  entre cada uno
+                            de los apartados. No existe referente teórico en los apartados. La ortografía tiene
+                            mas de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="aspectos" value="other">
+                            4. Existe orden en las ideas. Las idean son congruentes entre cada uno de los
+                            apartados. Existen referente teórico en los apartados. La ortografía tiene menos
+                            de dos errores.
+                            <br>
+                            <br>
+                            <input type="radio" name="aspectos" value="other">
+                            5. Existe orden en las ideas. Las ideas son congruentes entre cada uno de los
+                            apartados. Su referente teórico es explícito en los apartados. Sin errores en la
+                            ortigrafía.
+                            <br>
+                          </form>
+                        </section>
+                        <section id="sec_b">
+                          <input id="b_finalizar" type="submit" value="Finalizar evaluación">
+                        </section>
+                      </form>
+                    </div>
+                  </div>
+
             </div>
           </div>
         </section>
