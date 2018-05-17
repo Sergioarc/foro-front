@@ -11,18 +11,21 @@
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
     <!-- CSS Global -->
-    <link href="http://localhost/foro/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://localhost/foro/assets/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="http://localhost/foro/assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
+    <link href="../public/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../public/foro/assets/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../public/assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
     <!-- <link href="http://localhost/foro/assets/plugins/owlcarousel2/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="http://localhost/foro/assets/plugins/owlcarousel2/assets/owl.theme.default.min.css" rel="stylesheet">
     <link href="http://localhost/foro/assets/plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet"> -->
-    <link href="http://localhost/foro/assets/plugins/animate/animate.min.css" rel="stylesheet">
+    <link href="../public/assets/plugins/animate/animate.min.css" rel="stylesheet">
     <!-- <link href="http://localhost/foro/assets/plugins/countdown/jquery.countdown.css" rel="stylesheet"> -->
 
-    <link href="http://localhost/foro/assets/css/theme.css" rel="stylesheet">
-    <link href="http://localhost/foro/assets/css/custom.css" rel="stylesheet">
+    <link href="../public/assets/css/theme.css" rel="stylesheet">
+    <link href="../public/assets/css/custom.css" rel="stylesheet">
 
+
+    <!-- CSS Customize by Cheko or Ale!-->
+    <link href="../public/css/evaluacion_revisor.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="http://localhost/foro/assets/plugins/iesupport/html5shiv.js"></script>
@@ -35,10 +38,10 @@
     var img_url_loader = "http://localhost/foro/assets/img/loader.gif";
     </script>
     <!--[if lt IE 9]><script src="http://localhost/foro/assets/plugins/jquery/jquery-1.11.1.min.js"></script><![endif]-->
-    <!--[if gte IE 9]><!--><script src="http://localhost/foro/assets/plugins/jquery/jquery-2.1.1.min.js"></script><!--<![endif]-->
-    <script src="http://localhost/foro/assets/js/template_foro/general.js"></script>
-    <script src="http://localhost/foro/assets/js/template_foro/apprise.js"></script>
-    <script src="http://localhost/foro/assets/js/template_foro/idioma.js"></script>
+    <!--[if gte IE 9]><!--><script src="../public/assets/plugins/jquery/jquery-2.1.1.min.js"></script><!--<![endif]-->
+    <script src="../public/assets/js/template_foro/general.js"></script>
+    <script src="../public/assets/js/template_foro/apprise.js"></script>
+    <script src="../public/assets/js/template_foro/idioma.js"></script>
 </head>
 <body id="home" class="wide body-light">
 
@@ -65,17 +68,17 @@
                 <!-- Logo -->
                 <div class="logo col-sm-4 col-md-4 col-lg-4">
                     <a href="#home" class="scroll-to">
-                        <img height="100px" src="http://localhost/foro/assets/img/logo_foro_naranja.png">
+                        <img height="100px" src="../public/assets/img/logo_foro_naranja.png">
                     </a>
                 </div>
                 <!-- /Logo -->
                 <div class="col-sm-8 col-md-8 col-lg-8 pull-right text-right">
                     <a href="#" class="languaje_catalogo" data-cvelanguage="es">
-                        <img img-responsive="" src="http://localhost/foro/assets/img/language/mx.png" class="logos" alt="Español" title="Español" target="_blank" width="20px;">
+                        <img img-responsive="" src="../public/assets/img/language/mx.png" class="logos" alt="Español" title="Español" target="_blank" width="20px;">
                     </a>
                     <!-- <a href="#"><img img-responsive class"logos" height="70px" src="assets/img/sipimss.png" alt=""></a> -->
                     <a href="#" class="languaje_catalogo" data-cvelanguage="en">
-                        <img img-responsive="" src="http://localhost/foro/assets/img/language/us.png" class="logos" alt="Ingles" title="Ingles" target="_blank" width="20px;">
+                        <img img-responsive="" src="../public/assets/img/language/us.png" class="logos" alt="Ingles" title="Ingles" target="_blank" width="20px;">
                     </a>
                 </div>
 
@@ -86,12 +89,12 @@
             <a href="#" class="menu-toggle btn"><i class="fa fa-bars"></i></a>
             <ul class="sf-menu nav">
                                     <li class="">
-                        <a href="http://localhost/foro/index.php/inicio/inicio" id="tablero-menu-item-HOME_INICIO" class="tablero-menu-item">
+                        <a href="#" id="tablero-menu-item-HOME_INICIO" class="tablero-menu-item">
                             <!-- <i class="dashboard"></i> -->
                                                             Inicio                                                        </a>
                                             </li>
                                     <li class="">
-                        <a href="http://localhost/foro/index.php/registro_investigacion/index" id="tablero-menu-item-M3xoQ1IPHd" class="tablero-menu-item">
+                        <a href="#" id="tablero-menu-item-M3xoQ1IPHd" class="tablero-menu-item">
                             <!-- <i class="dashboard"></i> -->
                                                             Trabajo de investigación                                                        </a>
                                             </li>
@@ -102,7 +105,7 @@
                                 <ul class="nav  collapse" id="menuADMIN" style="margin-left: 1px;">
                             <li class="" style="list-style-type: none;">
 
-                    <a href="http://localhost/foro/index.php/usuario/" id="tablero-menu-item-USUARIOS" class="tablero-menu-item">
+                    <a href="#" id="tablero-menu-item-USUARIOS" class="tablero-menu-item">
                         <i class="dashboard"></i>
                                                     Gestión de usuarios                                                </a>
                                     </li>
@@ -114,13 +117,13 @@
                             <ul class="nav  collapse" id="menuM67SjDNuGZ" style="margin-left: 1px;">
                             <li class="" style="list-style-type: none;">
 
-                    <a href="http://localhost/foro/index.php/gestion_idiomas/tipo_etiquetas" id="tablero-menu-item-MEn7mtgUFx" class="tablero-menu-item">
+                    <a href="#" id="tablero-menu-item-MEn7mtgUFx" class="tablero-menu-item">
                         <i class="dashboard"></i>
                                                     Tipo de etiquetas                                                </a>
                                     </li>
                         <li class="" style="list-style-type: none;">
 
-                    <a href="http://localhost/foro/index.php/idiomas/obtener_grupo_etiquetas" id="tablero-menu-item-Mc7ILdMbKW" class="tablero-menu-item">
+                    <a href="#" id="tablero-menu-item-Mc7ILdMbKW" class="tablero-menu-item">
                         <i class="dashboard"></i>
                                                     Grupos de etiquetas                                                </a>
                                     </li>
@@ -134,13 +137,13 @@
                             <ul class="nav  collapse" id="menuADMIN_CAT" style="margin-left: 1px;">
                             <li class="" style="list-style-type: none;">
 
-                    <a href="http://localhost/foro/index.php/catalogo/unidad_instituto" id="tablero-menu-item-CAT_UNIDADES" class="tablero-menu-item">
+                    <a href="#" id="tablero-menu-item-CAT_UNIDADES" class="tablero-menu-item">
                         <i class="dashboard"></i>
                                                     Catálogo de unidades                                                </a>
                                     </li>
                         <li class="" style="list-style-type: none;">
 
-                    <a href="http://localhost/foro/index.php/catalogo/departamento" id="tablero-menu-item-CAT_DEP" class="tablero-menu-item">
+                    <a href="#" id="tablero-menu-item-CAT_DEP" class="tablero-menu-item">
                         <i class="dashboard"></i>
                                                     Catálogo de adscripciones                                                </a>
                                     </li>
@@ -148,19 +151,19 @@
                         </li>
                         <li class="" style="list-style-type: none;">
 
-                    <a href="http://localhost/foro/index.php/modulo/" id="tablero-menu-item-MODULO" class="tablero-menu-item">
+                    <a href="#" id="tablero-menu-item-MODULO" class="tablero-menu-item">
                         <i class="dashboard"></i>
                                                     Módulos                                                </a>
                                     </li>
                 </ul>
                             </li>
                                     <li class="">
-                        <a href="http://localhost/foro/index.php/inicio/mesa_ayuda" id="tablero-menu-item-MESA_AYUDA" class="tablero-menu-item" data-toggle="modal" data-target="#my_modal" onclick="modal_menu('http://localhost/foro/index.php/inicio/mesa_ayuda')">
+                        <a href="#" id="tablero-menu-item-MESA_AYUDA" class="tablero-menu-item" data-toggle="modal" data-target="#my_modal" onclick="modal_menu('http://localhost/foro/index.php/inicio/mesa_ayuda')">
                             <!-- <i class="dashboard"></i> -->
                                                             Asistencia                                                        </a>
                                             </li>
                                     <li class="">
-                        <a href="http://localhost/foro/index.php/inicio/cerrar_sesion" id="tablero-menu-item-Mqe1K1SgtX" class="tablero-menu-item">
+                        <a href="#" id="tablero-menu-item-Mqe1K1SgtX" class="tablero-menu-item">
                             <!-- <i class="dashboard"></i> -->
                                                             Cerrar sesión                                                        </a>
                                             </li>
@@ -188,7 +191,6 @@
             <section class="page-section background-img">
                 <div class="container">
                     <div class="row">
-
 <style type="text/css">
     .titulo{
         font-weight: 500;
@@ -204,230 +206,244 @@
     }
 </style>
 
-<div class="panel panel-default">
-    <h1 class="page-head-line"></h1>
-    <div class="panel-body">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="titulo">Trabajo de investigación</h2>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="div-borde">
-                    <strong>Folio:</strong>
-                    <br>
-                    IMSS-CES-FNFIES-P-18-0030                </div>
-            </div>
-            <div class="col-sm-8">
-                <div class="div-borde">
-                    <strong>Título:</strong>
-                    <br>
-                    Mi título de prueba                </div>
-            </div>
-        </div> <!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Ver archivo:</strong>
-                    <a href="http://localhost/foro/index.php/registro_investigacion/ver_archivo/MTg" target="_blank"><span class="fa fa-search"></span> IMSS-CES-FNFIES-P-18-0030.pdf</a><br>                                    </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="titulo">Autor principal</h2>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="div-borde">
-                    <strong>Nombre:</strong>
-                    <br>
-                    Dianna                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="div-borde">
-                    <strong>Apellido paterno:</strong>
-                    <br>
-                    Angeles                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="div-borde">
-                    <strong>Apellido materno:</strong>
-                    <br>
-                    Gualito                </div>
-            </div>
-        </div> <!--row-->
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="div-borde">
-                    <strong>País de origen:</strong>
-                    <br>
-                                    </div>
-            </div>
-                        <div class="col-sm-2">
-                <div class="div-borde">
-                    <strong>Genero:</strong>
-                    <br>
-                                    </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="div-borde">
-                    <strong>Matrícula:</strong>
-                    <br>
-                    311091488                </div>
-            </div>
-        </div><!--row-->
-        <br>
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="titulo">Coautores</h2>
-            </div>
-        </div><!--row-->
-                    <div class="row">
-                <div class="col-sm-4">
-                    <div class="div-borde">
-                        <strong>Nombre:</strong>
-                        <br>
-                        poó                    </div>
+
+                  <div class="sectionEvaluacion" id="secTrabajoInv">
+                    <h3>
+                      Trabajo de investigación
+                    </h3>
+                    <img src="../public/img/arrowdown.png" alt="">
+                  </div>
+                  <div id="hideTrabajo" class="panel panel-default" style="">
+                      <h1 class="page-head-line"></h1>
+                      <div class="panel-body">
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <h2 class="titulo">Trabajo de investigación</h2>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-4">
+                                  <div class="div-borde">
+                                      <strong>Folio:</strong>
+                                      <br>
+                                      IMSS-CES-FNFIES-P-18-0030                </div>
+                              </div>
+                              <div class="col-sm-8">
+                                  <div class="div-borde">
+                                      <strong>Título:</strong>
+                                      <br>
+                                      Mi título de prueba                </div>
+                              </div>
+                          </div> <!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Ver archivo:</strong>
+                                      <a href="http://localhost/foro/index.php/registro_investigacion/ver_archivo/MTg" target="_blank"><span class="fa fa-search"></span> IMSS-CES-FNFIES-P-18-0030.pdf</a><br>                                    </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <h2 class="titulo">Autor principal</h2>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-4">
+                                  <div class="div-borde">
+                                      <strong>Nombre:</strong>
+                                      <br>
+                                      Dianna                </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <div class="div-borde">
+                                      <strong>Apellido paterno:</strong>
+                                      <br>
+                                      Angeles                </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <div class="div-borde">
+                                      <strong>Apellido materno:</strong>
+                                      <br>
+                                      Gualito                </div>
+                              </div>
+                          </div> <!--row-->
+                          <div class="row">
+                              <div class="col-sm-6">
+                                  <div class="div-borde">
+                                      <strong>País de origen:</strong>
+                                      <br>
+                                                      </div>
+                              </div>
+                                          <div class="col-sm-2">
+                                  <div class="div-borde">
+                                      <strong>Genero:</strong>
+                                      <br>
+                                                      </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <div class="div-borde">
+                                      <strong>Matrícula:</strong>
+                                      <br>
+                                      311091488                </div>
+                              </div>
+                          </div><!--row-->
+                          <br>
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <h2 class="titulo">Coautores</h2>
+                              </div>
+                          </div><!--row-->
+                                      <div class="row">
+                                  <div class="col-sm-4">
+                                      <div class="div-borde">
+                                          <strong>Nombre:</strong>
+                                          <br>
+                                          poó                    </div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <div class="div-borde">
+                                          <strong>Apellido paterno:</strong>
+                                          <br>
+                                          poó                    </div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <div class="div-borde">
+                                          <strong>Apellido materno:</strong>
+                                          <br>
+                                          poó                    </div>
+                                  </div>
+                              </div> <!--row-->
+                              <div class="row">
+                                  <div class="col-sm-6">
+                                      <div class="div-borde">
+                                          <strong>País de origen:</strong>
+                                          <br>
+                                          México                    </div>
+                                  </div>
+                                  <div class="col-sm-2">
+                                      <div class="div-borde">
+                                          <strong>Genero:</strong>
+                                          <br>
+                                          Otro                    </div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <div class="div-borde">
+                                          <strong>Matrícula:</strong>
+                                          <br>
+                                                              </div>
+                                  </div>
+                              </div>
+                              <br>
+                                      <div class="row">
+                              <div class="col-sm-12">
+                                  <h2 class="titulo">Problema</h2>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Pregunta de investigación:</strong>
+                                      <br>
+                                      Pregunta de investigación                </div>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Planteamiento del problema:</strong>
+                                      <br>
+                                      Planteamiento del problema                </div>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Objetivo:</strong>
+                                      <br>
+                                      Objetivo                </div>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Justificación:</strong>
+                                      <br>
+                                      Justificación                </div>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <h2 class="titulo">Marco teórico</h2>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Antecedentes:</strong>
+                                      <br>
+                                      Antecedentes                </div>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Tipo de metodología:</strong>
+                                      <br>
+                                      Cuantitativo                </div>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Metodología:</strong>
+                                      <br>
+                                      Metodología                </div>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Consideraciones éticas:</strong>
+                                      <br>
+                                      Consideraciones éticas                </div>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Hipótesis y/o supuestos teóricos:</strong>
+                                      <br>
+                                      Hipótesis y/o supuestos teóricos                </div>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Resultados:</strong>
+                                      <br>
+                                      Resultados                </div>
+                              </div>
+                          </div><!--row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="div-borde">
+                                      <strong>Conclusiones:</strong>
+                                      <br>
+                                      Conclusiones                </div>
+                              </div>
+                          </div><!--row-->
+                          <!--row-->
+                      </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="div-borde">
-                        <strong>Apellido paterno:</strong>
-                        <br>
-                        poó                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="div-borde">
-                        <strong>Apellido materno:</strong>
-                        <br>
-                        poó                    </div>
-                </div>
-            </div> <!--row-->
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="div-borde">
-                        <strong>País de origen:</strong>
-                        <br>
-                        México                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="div-borde">
-                        <strong>Genero:</strong>
-                        <br>
-                        Otro                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="div-borde">
-                        <strong>Matrícula:</strong>
-                        <br>
-                                            </div>
-                </div>
+                  <div class="sectionEvaluacion" id="secEvaluacion">
+                    <h3>
+                      Evaluación
+                    </h3>
+                    <img src="../public/img/arrowdown.png" alt="">
+                  </div>
             </div>
-            <br>
-                    <div class="row">
-            <div class="col-sm-12">
-                <h2 class="titulo">Problema</h2>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Pregunta de investigación:</strong>
-                    <br>
-                    Pregunta de investigación                </div>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Planteamiento del problema:</strong>
-                    <br>
-                    Planteamiento del problema                </div>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Objetivo:</strong>
-                    <br>
-                    Objetivo                </div>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Justificación:</strong>
-                    <br>
-                    Justificación                </div>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="titulo">Marco teórico</h2>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Antecedentes:</strong>
-                    <br>
-                    Antecedentes                </div>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Tipo de metodología:</strong>
-                    <br>
-                    Cuantitativo                </div>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Metodología:</strong>
-                    <br>
-                    Metodología                </div>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Consideraciones éticas:</strong>
-                    <br>
-                    Consideraciones éticas                </div>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Hipótesis y/o supuestos teóricos:</strong>
-                    <br>
-                    Hipótesis y/o supuestos teóricos                </div>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Resultados:</strong>
-                    <br>
-                    Resultados                </div>
-            </div>
-        </div><!--row-->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="div-borde">
-                    <strong>Conclusiones:</strong>
-                    <br>
-                    Conclusiones                </div>
-            </div>
-        </div><!--row-->
-        <!--row-->
-    </div>
-</div>                    </div>
-                </div>
-            </section>
+          </div>
+        </section>
             <!-- SLIDER -->
             <!-- <section class="page-section no-padding background-img-slider">
                 <div style="clear:both;"></div>
@@ -453,7 +469,7 @@
             <div class="container">
                 <div class="clearfix text-center">
                     <ul class="social-line list-inline">
-                        <li><img src="http://localhost/foro/assets/img/Logo_SaberIMSS.png" alt="..." width="70" height="70"></li>
+                        <li><img src="../public/assets/img/Logo_SaberIMSS.png" alt="..." width="70" height="70"></li>
                         <li data-animation="flipInY" data-animation-delay="100" class="animated"><a href="https://twitter.com/Saber_IMSS" class="twitter"><i class="fa fa-twitter"></i></a></li>
                         <li data-animation="flipInY" data-animation-delay="300" class="animated"><a href="https://www.facebook.com/SaberIMSS/" class="facebook"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://www.youtube.com/channel/UCvlda6Uw7N_pZAH_fxE9ZYA" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a></li>
@@ -462,23 +478,23 @@
                 <!-- <span class="copyright" data-animation="fadeInUp" data-animation-delay="100">&copy; 2018 Instituto Mexicano del Seguro Social.</span>-->
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-left">
                     <a href="https://www.gob.mx/presidencia/" class="scroll-to">
-                        <img src="http://localhost/foro/assets/img/logo-presidencia.png" class="img-responsive">
+                        <img src="../public/assets/img/logo-presidencia.png" class="img-responsive">
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 text-left">
                     <a href="http://www.qroo.gob.mx/sedetur" class="scroll-to">
-                        <img src="http://localhost/foro/assets/img/logo-Cancun.png" class="img-responsive">
+                        <img src="../public/assets/img/logo-Cancun.png" class="img-responsive">
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 text-center pull-centerr">
                     <!-- <span class="copyright" data-animation="fadeInUp" data-animation-delay="100">&copy; 2018 IMSS, <a href="#">Aviso legal</a>.</span> -->
                     <a href="http://www.fundacionimss.org.mx/" class="scroll-to">
-                        <img src="http://localhost/foro/assets/img/logo-fundacion-imss.png" class="img-responsive">
+                        <img src="../public/assets/img/logo-fundacion-imss.png" class="img-responsive">
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 text-right">
                     <a href="http://www.imss.gob.mx/" class="scroll-to">
-                        <img src="http://localhost/foro/assets/img/logo-imss.png" class="img-responsive">
+                        <img src="../public/assets/img/logo-imss.png" class="img-responsive">
                     </a>
                 </div>
             </div>
@@ -491,26 +507,28 @@
 <!-- /Wrap all content -->
 
 <!-- JS Global -->
-<script src="http://localhost/foro/assets/plugins/modernizr.custom.js"></script>
-<script src="http://localhost/foro/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="http://localhost/foro/assets/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="../public/assets/plugins/modernizr.custom.js"></script>
+<script src="../public/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="../public/assets/plugins/bootstrap-select/bootstrap-select.min.js"></script>
 <!-- <script src="http://localhost/foro/assets/plugins/superfish/js/superfish.js"></script>
 <script src="http://localhost/foro/assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script> -->
-<script src="http://localhost/foro/assets/plugins/placeholdem.min.js"></script>
-<script src="http://localhost/foro/assets/plugins/jquery.smoothscroll.min.js"></script>
-<script src="http://localhost/foro/assets/plugins/jquery.easing.min.js"></script>
+<script src="../public/assets/plugins/placeholdem.min.js"></script>
+<script src="../public/foro/assets/plugins/jquery.smoothscroll.min.js"></script>
+<script src="../public/foro/assets/plugins/jquery.easing.min.js"></script>
 
 <!-- JS Page Level -->
 <!-- <script src="http://localhost/foro/assets/plugins/owlcarousel2/owl.carousel.min.js"></script> -->
-<script src="http://localhost/foro/assets/plugins/waypoints/waypoints.min.js"></script>
+<script src="../public/assets/plugins/waypoints/waypoints.min.js"></script>
 <!-- <script src="http://localhost/foro/assets/plugins/countdown/jquery.plugin.min.js"></script>
 <script src="http://localhost/foro/assets/plugins/countdown/jquery.countdown.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> -->
 
-<script src="http://localhost/foro/assets/js/theme-ajax-mail.js"></script>
-<script src="http://localhost/foro/assets/js/theme.js"></script>
-<script src="http://localhost/foro/assets/js/template_foro/menu.js"></script>
+<script src="../public/assets/js/theme-ajax-mail.js"></script>
+<script src="../public/assets/js/theme.js"></script>
+<script src="../public/assets/js/template_foro/menu.js"></script>
 <!-- script src="http://localhost/foro/assets/js/custom.js"></script -->
+
+<script src="../public/js/funcionalidad_cascada.js"></script>
 
 <script type="text/javascript">
     jQuery(document).ready(function () {
