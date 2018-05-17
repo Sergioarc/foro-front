@@ -7,7 +7,7 @@
 
 #secTrabajoInv{
   display: flex;
-  background-color: rgb(13,29,49,0.8);
+  background-color: rgba(13,29,49,0.8);
   vertical-align: middle;
   justify-content: space-between;
   align-items: center;
