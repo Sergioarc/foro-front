@@ -109,9 +109,9 @@
                   <div class="schedule-wrapper clear" data-animation="fadeIn" data-animation-delay="200">
                       <div class="schedule-tabs lv1">
                           <ul id="tabs-lv1"  class="nav nav-justified">
-                              <li class="active"><a href="#tab-first" data-toggle="tab"><strong>Trabajos a revisar</strong> <br/></a></li>
-                              <!-- <li><a href="#tab-second" data-toggle="tab"><strong>Etapas con retraso</strong> <br/></a></li>
-                              <li><a href="#tab-third" data-toggle="tab"><strong>Rechazados</strong> <br/></a></li> -->
+                              <li class="active"><a href="#tab-first" data-toggle="tab"><strong>Trabajos por revisar</strong> <br/></a></li>
+                              <li><a href="#tab-second" data-toggle="tab"><strong>Trabajos concluidos</strong> <br/></a></li>
+                              <!-- <li><a href="#tab-third" data-toggle="tab"><strong>Rechazados</strong> <br/></a></li> -->
                               <!-- <li><a href="#tab-last" data-toggle="tab"><strong>By speaker</strong></a></li> -->
                           </ul>
                       </div>
@@ -137,9 +137,7 @@
                                                 <th scope="col">Folio</th>
                                                 <th scope="col">Título</th>
                                                 <th scope="col">Metodología</th>
-                                                <th scope="col">Estatus</th>
-                                                <th scope="col">Fecha de asignación</th>
-                                                <th scope="col">Fecha de conclusión</th>
+                                                <th scope="col">Fecha límite para revisión</th>
                                                 <th scope="col">Opciones</th>
                                               </tr>
                                             </thead>
@@ -148,8 +146,6 @@
                                                 <th scope="row">12285311F1</th>
                                                 <td>La medicina general?</td>
                                                 <td>cualitativo</td>
-                                                <td>En revisión</td>
-                                                <td>05/06/2018</td>
                                                 <td>05/06/2018</td>
                                                 <td><a href="#">Ver</a> &nbsp &nbsp
                                                     <a href="#">Evaluar</a>
@@ -159,8 +155,6 @@
                                                 <th scope="row">12285311F2</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <td>Sin revisar</td>
-                                                <td>05/06/2018</td>
                                                 <td>05/06/2018</td>
                                                 <td><a href="#">Ver</a> &nbsp &nbsp
                                                     <a href="#">Evaluar</a>
@@ -170,8 +164,6 @@
                                                 <th scope="row">12285311F3</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <td>Sin revisar</td>
-                                                <td>05/06/2018</td>
                                                 <td>05/06/2018</td>
                                                 <td><a href="#">Ver</a> &nbsp &nbsp
                                                     <a href="#">Evaluar</a>
@@ -311,28 +303,42 @@
                                               <tr>
                                                 <th scope="col">Folio</th>
                                                 <th scope="col">Título</th>
-                                                <th scope="col">tipo de metodología</th>
+                                                <th scope="col">Metodología</th>
+                                                <th scope="col">Estatus</th>
+                                                <!-- <th scope="col">Fecha de asignación</th> -->
+                                                <th scope="col">Fecha de evaluación</th>
                                                 <th scope="col">Opciones</th>
                                               </tr>
                                             </thead>
                                             <tbody>
                                               <tr>
                                                 <th scope="row">12285311F1</th>
-                                                <td>La medicina general: ¿terminal o propedéutica?</td>
-                                                <td>Metodología x</td>
-                                                <td><a href="#">Ver</a></td>
+                                                <td>La medicina general?</td>
+                                                <td>cualitativo</td>
+                                                <td>Revisado</td>
+                                                <!-- <td>05/06/2018</td> -->
+                                                <td>05/06/2018</td>
+                                                <td><a href="#">Ver</a>
+                                                </td>
                                               </tr>
                                               <tr>
                                                 <th scope="row">12285311F2</th>
-                                                <td>La medicina general: ¿terminal o propedéutica?</td>
-                                                <td>Metodología x</td>
-                                                <td><a href="#">Ver</a></td>
+                                                <td>La medicina general</td>
+                                                <td>cualitativo</td>
+                                                <td>En conflicto</td>
+                                                <!-- <td>05/06/2018</td> -->
+                                                <td>05/06/2018</td>
+                                                <td><a href="#">Ver</a>
+                                                </td>
                                               </tr>
                                               <tr>
                                                 <th scope="row">12285311F3</th>
-                                                <td>La medicina general: ¿terminal o propedéutica?</td>
-                                                <td>Metodología x</td>
-                                                <td><a href="#">Ver</a></td>
+                                                <td>La medicina general</td>
+                                                <td>cualitativo</td>
+                                                <td>Discrepancia</td>
+                                                <!-- <td>05/06/2018</td> -->
+                                                <td>05/06/2018</td>
+                                                <td><a href="#">Ver</a>
                                               </tr>
                                             </tbody>
                                             </table>
