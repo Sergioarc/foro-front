@@ -111,16 +111,217 @@
                       <div class="schedule-tabs lv1">
                           <ul id="tabs-lv1"  class="nav nav-justified">
                               <li class="active"><a href="#tab-first" data-toggle="tab"><strong>Sin comité</strong> <br/></a></li>
+                              <li><a href="#tab-atencion" data-toggle="tab"><strong>Requiere atención</strong> <br/></a></li>
                               <li><a href="#tab-second" data-toggle="tab"><strong>En revisión</strong> <br/></a></li>
-                              <li><a href="#tab-third" data-toggle="tab"><strong>Evaluados</strong> <br/></a></li>
-                              <li><a href="#tab-last" data-toggle="tab"><strong>Dictamen</strong></a></li>
+
+                              <li><a href="#tab-last" data-toggle="tab"><strong>Revisados</strong></a></li>
+                                <li><a href="#tab-third" data-toggle="tab"><strong>Aceptados</strong> <br/></a></li>
                               <li><a href="#tab-five" data-toggle="tab"><strong>Rechazados</strong> <br/></a></li>
                           </ul>
                       </div>
 
                       <div class="tab-content lv1">
                           <!-- tab1 -->
+
                           <div id="tab-first" class="tab-pane fade in active">
+                              <!-- <div class="schedule-tabs lv2">
+                                  <ul id="tabs-lv21"  class="nav nav-justified">
+                                      <li class="active"><a href="#tab-lv21-first" data-toggle="tab">HAll A</a></li>
+                                      <li><a href="#tab-lv21-second" data-toggle="tab">HAll B</a></li>
+                                      <li><a href="#tab-lv21-third" data-toggle="tab">HAll C</a></li>
+                                      <li><a href="#tab-lv21-last" data-toggle="tab">HAll D</a></li>
+                                  </ul>
+                              </div> -->
+                              <div class="tab-content lv2">
+                                  <div id="tab-lv21-first" class="tab-pane fade in active">
+                                      <div class="timeline">
+                                          <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal"> <a  style="color:#fff;">Asignar</a> </button>
+                                          <br>
+
+                                        <table class="table">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">Folio</th>
+                                                <th scope="col">Título</th>
+                                                <th scope="col">Metodología</th>
+                                                <!-- <th scope="col">Estatus</th> -->
+                                                <!-- <th scope="col">Fecha de asignación</th>
+                                                <th scope="col">Fecha de conclusión</th> -->
+                                                <th scope="col">Opciones</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>
+                                                  <div class="form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                  </div>
+                                                </td>
+                                                <td scope="row">12285311F1</td>
+                                                <td>La medicina general?</td>
+                                                <td>cualitativo</td>
+                                                <!-- <td>Sin comité</td> -->
+                                                <!-- <td>05/06/2018</td>
+                                                <td>05/06/2018</td> -->
+                                                <td>
+                                                  <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                  <div class="form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                  </div>
+                                                </td>
+                                                <th scope="row">12285311F2</th>
+                                                <td>La medicina general</td>
+                                                <td>cualitativo</td>
+                                                <!-- <td>Sin comité</td> -->
+                                                <!-- <td>05/06/2018</td>
+                                                <td>05/06/2018</td> -->
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                  <div class="form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                  </div>
+                                                </td>
+                                                <th scope="row">12285311F3</th>
+                                                <td>La medicina general</td>
+                                                <td>cualitativo</td>
+                                                <!-- <td>Sin comité</td> -->
+                                                <!-- <td>05/06/2018</td>
+                                                <td>05/06/2018</td> -->
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                            </table>
+
+                                    </div>
+                                  </div>
+                                  <div id="tab-lv21-second" class="tab-pane fade">
+                                      <div class="timeline">
+
+                                        <table class="table">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">Folio</th>
+                                                <th scope="col">Título</th>
+                                                <th scope="col">Fecha de registro</th>
+                                                <th scope="col">Opciones</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">12285311F1</th>
+                                                <td>La medicina general: ¿terminal o propedéutica?</td>
+                                                <td>05/06/2018</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver</button>
+                                                    <!-- <button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Evaluar</button> -->
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">12285311F2</th>
+                                                <td>La medicina general: ¿terminal o propedéutica?</td>
+                                                <td>05/06/2018</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver</button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">12285311F3</th>
+                                                <td>La medicina general: ¿terminal o propedéutica?</td>
+                                                <td>05/06/2018</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver</button>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                            </table>
+
+                                      </div>
+                                  </div>
+                                  <div id="tab-lv21-third" class="tab-pane fade">
+                                      <div class="timeline">
+
+                                        <table class="table">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">Folio</th>
+                                                <th scope="col">Título</th>
+                                                <th scope="col">Fecha de registro</th>
+                                                <th scope="col">Opciones</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">12285311F1</th>
+                                                <td>La medicina general: ¿terminal o propedéutica?</td>
+                                                <td>05/06/2018</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver</button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">12285311F2</th>
+                                                <td>La medicina general: ¿terminal o propedéutica?</td>
+                                                <td>05/06/2018</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver</button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">12285311F3</th>
+                                                <td>La medicina general: ¿terminal o propedéutica?</td>
+                                                <td>05/06/2018</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver</button>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                            </table>
+                                      </div>
+                                  </div>
+                                  <div id="tab-lv21-last" class="tab-pane fade">
+                                      <div class="timeline">
+
+                                        <table class="table">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">Folio</th>
+                                                <th scope="col">Título</th>
+                                                <th scope="col">Fecha de registro</th>
+                                                <th scope="col">Opciones</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">12285311F1</th>
+                                                <td>La medicina general: ¿terminal o propedéutica?</td>
+                                                <td>05/06/2018</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver</button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">12285311F2</th>
+                                                <td>La medicina general: ¿terminal o propedéutica?</td>
+                                                <td>05/06/2018</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver</button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">12285311F3</th>
+                                                <td>La medicina general: ¿terminal o propedéutica?</td>
+                                                <td>05/06/2018</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver</button>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                            </table>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div id="tab-atencion" class="tab-pane fade in active">
                               <!-- <div class="schedule-tabs lv2">
                                   <ul id="tabs-lv21"  class="nav nav-justified">
                                       <li class="active"><a href="#tab-lv21-first" data-toggle="tab">HAll A</a></li>
@@ -139,7 +340,10 @@
                                                 <th scope="col">Folio</th>
                                                 <th scope="col">Título</th>
                                                 <th scope="col">Metodología</th>
-                                                <th scope="col">Estatus</th>
+                                                <th scope="col">Estatus R1</th>
+                                                <th scope="col">Estatus R2</th>
+                                                  <th scope="col">Estatus R3</th>
+                                                    <th scope="col">Número de revisiones</th>
                                                 <!-- <th scope="col">Fecha de asignación</th>
                                                 <th scope="col">Fecha de conclusión</th> -->
                                                 <th scope="col">Opciones</th>
@@ -150,30 +354,47 @@
                                                 <th scope="row">12285311F1</th>
                                                 <td>La medicina general?</td>
                                                 <td>cualitativo</td>
-                                                <td>Sin comité</td>
+                                                <td>Se agotó el tiempo</td>
+                                                <td>Se agotó el tiempo</td>
+                                                <td>Se agotó el tiempo</td>
+                                                  <td>2</td>
                                                 <!-- <td>05/06/2018</td>
                                                 <td>05/06/2018</td> -->
-                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
+                                                <td>
+                                                  <button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver trabajo</button>
+                                                  <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
                                                 </td>
                                               </tr>
                                               <tr>
                                                 <th scope="row">12285311F2</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <td>Sin comité</td>
+                                                <td>Discrepancia</td>
+                                                <td>Conflicto de interes</td>
+                                                <td>Se agotó el tiempo</td>
+                                                <td>5</td>
+
                                                 <!-- <td>05/06/2018</td>
                                                 <td>05/06/2018</td> -->
-                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
+                                                <td>
+                                                  <button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver trabajo</button>
+                                                  <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
                                                 </td>
                                               </tr>
                                               <tr>
                                                 <th scope="row">12285311F3</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <td>Sin comité</td>
+                                                <td>Conflicto de interés</td>
+                                                <td>Se agotó el tiempo</td>
+                                                <td>Se agotó el tiempo</td>
+                                                <td>8</td>
+
                                                 <!-- <td>05/06/2018</td>
                                                 <td>05/06/2018</td> -->
-                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
+                                                <td>
+                                                  <button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button">Ver trabajo</button> <br>
+                                                  <button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -312,6 +533,9 @@
                               <div class="tab-content lv2">
                                   <div id="tab-lv22-first" class="tab-pane fade in active">
                                       <div class="timeline">
+                                        <h4> <b>Nota:</b> La fecha debajo del nombre del revisor es la fecha límite de evaluación. </h4>
+                                        <br>
+
 
                                         <table class="table">
                                             <thead>
@@ -319,9 +543,9 @@
                                                 <th scope="col">Folio</th>
                                                 <th scope="col">Título</th>
                                                 <th scope="col">Metodología</th>
-                                                <!-- <th scope="col">Estatus</th> -->
-                                                <!-- <th scope="col">Fecha de asignación</th> -->
-                                                <th scope="col">Fecha límite para reviión</th>
+                                                <th scope="col">R1</th>
+                                                <th scope="col">R2</th>
+                                                <th scope="col">R3</th>
                                                 <th scope="col">Opciones</th>
                                               </tr>
                                             </thead>
@@ -330,10 +554,13 @@
                                                 <th scope="row">12285311F1</th>
                                                 <td>La medicina general?</td>
                                                 <td>cualitativo</td>
-                                                <!-- <td>Aceptado</td> -->
-                                                <!-- <td>05/06/2018</td> -->
-                                                <td>05/06/2018</td>
-                                                <td><a class="col-sm-1 btn btn-theme btn-block submit-button" href="detalle_trabajo_gestor.html">Ver</a>
+                                                <td>Luis Eduardo <br> 05/06/2018</td>
+                                                <td>Jesus Zoe <br> Concluido</td>
+                                                <td>MArio Perez <br> 05/06/2018</td>
+                                                <td>
+                                                  <a class="col-sm-1 btn btn-theme btn-block submit-button" href="detalle_trabajo_gestor.html">Ver trabajo</a>
+                                                  <!-- <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Reasignar</button> -->
+
                                                     <!-- <a href="#">Evaluar</a> -->
                                                 </td>
                                               </tr>
@@ -341,10 +568,13 @@
                                                 <th scope="row">12285311F2</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <!-- <td>En revisión</td> -->
-                                                <!-- <td>05/06/2018</td> -->
-                                                <td>05/06/2018</td>
-                                                <td><a class="col-sm-1 btn btn-theme btn-block submit-button" href="detalle_trabajo_gestor.html">Ver</a>
+                                                <td>Luis Eduardo <br> 05/06/2018</td>
+                                                <td>Jesus Zoe <br> Concluido</td>
+                                                <td>MArio Perez <br> 05/06/2018</td>
+                                                <td>
+                                                  <a class="col-sm-1 btn btn-theme btn-block submit-button" href="detalle_trabajo_gestor.html">Ver trabajo</a>
+                                                  <!-- <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Reasignar</button> -->
+
                                                     <!-- <a href="#">Evaluar</a> -->
                                                 </td>
                                               </tr>
@@ -352,9 +582,12 @@
                                                 <th scope="row">12285311F3</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <!-- <td>En revisión</td> -->
-                                                  <td>05/06/2018</td>
-                                                <td><a class="col-sm-1 btn btn-theme btn-block submit-button" href="detalle_trabajo_gestor.html">Ver</a>
+                                                <td>Luis Eduardo <br> 05/06/2018</td>
+                                                <td>Jesus Zoe <br> Concluido</td>
+                                                <td>MArio Perez <br> 05/06/2018</td>
+                                                <td><a class="col-sm-1 btn btn-theme btn-block submit-button" href="detalle_trabajo_gestor.html">Ver trabajo</a>
+                                                  <!-- <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Reasignar</button> -->
+
                                                     <!-- <a href="#">Evaluar</a> -->
                                                 </td>
                                               </tr>
@@ -673,11 +906,7 @@
                                                 <th scope="col">Folio</th>
                                                 <th scope="col">Título</th>
                                                 <th scope="col">Metodología</th>
-                                                <th scope="col">R1</th>
-                                                <th scope="col">R2</th>
-                                                <th scope="col">R3</th>
-                                                <!-- <th scope="col">Fecha de asignación</th> -->
-                                                <th scope="col">Fecha de conclusión</th>
+                                                <th scope="col">Tipo de exposición</th>
                                                 <th scope="col">Puntaje</th>
                                                 <th scope="col">Opciones</th>
                                               </tr>
@@ -687,12 +916,7 @@
                                                 <th scope="row">12285311F1</th>
                                                 <td>La medicina general?</td>
                                                 <td>cualitativo</td>
-                                                <td>Juan Cuadros</td>
-                                                <td>Maria Juarez</td>
-                                                <td>Mario Perez</td>
-                                                <!-- <td>05/06/2018</td> -->
-                                                <td>05/06/2018</td>
-
+                                                <td>Oratoria</td>
                                                 <td>90</td>
                                                 <td><a class="col-sm-1 btn btn-theme btn-block submit-button" href="resumen_revision_ti_view.html">Ver</a>
                                                     <!-- <a href="#">Evaluar</a> -->
@@ -702,11 +926,8 @@
                                                 <th scope="row">12285311F2</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <td>Juan Cuadros</td>
-                                                <td>Maria Juarez</td>
-                                                <td>N/A</td>
-                                                <!-- <td>05/06/2018</td> -->
-                                                <td>05/06/2018</td>
+                                                <td>Oratoria</td>
+
                                                 <td>95</td>
                                                 <td><a class="col-sm-1 btn btn-theme btn-block submit-button" href="resumen_revision_ti_view.html">Ver</a>
                                                     <!-- <a href="#">Evaluar</a> -->
@@ -716,12 +937,8 @@
                                                 <th scope="row">12285311F3</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <td>Juan Cuadros</td>
-                                                <td>Maria Juarez</td>
-                                                <td>N/A</td>
+                                                <td>Oratoria</td>
 
-                                                <!-- <td>05/06/2018</td> -->
-                                                <td>05/06/2018</td>
                                                 <!-- <td>Mario Perez</td> -->
                                                 <td>80</td>
                                                 <td><a class="col-sm-1 btn btn-theme btn-block submit-button" href="resumen_revision_ti_view.html">Ver</a>
@@ -1032,13 +1249,47 @@
                               <div class="tab-content lv2">
                                   <div id="tab-lv24-first" class="tab-pane fade in active">
                                       <div class="timeline">
+                                        <div class="col-sm-12">
 
-                                        <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal2"> <a  style="color:#fff;">Dictaminar</a> </button>
+                                        <div class="col-sm-3">
+                                          <h3> Lugares para Oratoria</h3><br>
+                                          <h3>10 / 20</h3>
+                                        </div>
+                                        <div class="col-sm-3">
+                                          <h3> Lugares para Oratoria</h3><br>
+                                          <h3>10 / 20</h3>
+
+                                        </div>
+                                        <!-- <div class="col-sm-3">
+
+                                        </div> -->
+                                        </div>
+
+                                        <div class="col-sm-12">
+                                          <div class="col-sm-1">
+
+                                          </div>
+                                        <div class="col-sm-3">
+                                          <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal2"> <a  style="color:#fff;">Sugerir dictamen</a> </button>
+
+                                        </div>
+                                        <div class="col-sm-3">
+                                          <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal2"> <a  style="color:#fff;">Guardar cambio</a> </button>
+
+                                        </div>
+                                        <div class="col-sm-3">
+                                          <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal2"> <a  style="color:#fff;">Cerrar proceso</a> </button>
+
+                                        </div>
+                                        </div>
+                                        <br>
+
+
                                         <br>
                                         <table class="table">
                                             <thead>
                                               <tr>
-                                                <th scope="col"></th>
+                                                <!-- <th scope="col"></th> -->
                                                 <th scope="col">Folio</th>
                                                 <th scope="col">Título</th>
                                                 <th scope="col">Metodología</th>
@@ -1046,123 +1297,121 @@
                                                 <th scope="col">R2</th>
                                                 <th scope="col">R3</th>
                                                 <!-- <th scope="col">Fecha de asignación</th> -->
-                                                <th scope="col">Fecha de conclusión</th>
+                                                <!-- <th scope="col">Fecha de conclusión</th> -->
                                                 <th scope="col">Puntaje</th>
+                                                <th>Propuesta de dictamen</th>
                                                 <th scope="col">Opciones</th>
                                               </tr>
                                             </thead>
                                             <tbody>
                                               <tr>
-                                                <td>
+                                                <!-- <td>
                                                   <div class="form-check">
                                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                                   </div>
-                                                </td>
+                                                </td> -->
                                                 <td scope="row">12285311F1</td>
                                                 <td>La medicina general?</td>
                                                 <td>cualitativo</td>
-                                                <td>Juan Cuadros</td>
-                                                <td>Maria Juarez</td>
-                                                <td>Mario Perez</td>
+                                                <td>Juan Cuadros< <br> Cartel </td>
+                                                <td>Maria Juarez <br> Cartel </td>
+                                                <td>Mario Perez <br> Cartel</td>
                                                 <!-- <td>05/06/2018</td> -->
-                                                <td>05/06/2018</td>
+                                                <!-- <td>05/06/2018</td> -->
 
                                                 <td>90</td>
+                                                  <td>Aceptado para exposición con cartel</td>
                                                 <td>
-                                                  <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver</a> </button>
-                                                  <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal2">Dictamen</button>
+                                                  <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver detalle</a> </button>
                                                     <!-- <a href="#">Evaluar</a> -->
                                                 </td>
                                               </tr>
                                               <tr>
-                                                <td>
+                                                <!-- <td>
                                                   <div class="form-check">
                                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                                   </div>
-                                                </td>
+                                                </td> -->
                                                 <th scope="row">12285311F2</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <td>Juan Cuadros</td>
-                                                <td>Maria Juarez</td>
+                                                <td>Juan Cuadros< <br> Cartel </td>
+                                                <td>Maria Juarez <br> Cartel</td>
                                                 <td>N/A</td>
                                                 <!-- <td>05/06/2018</td> -->
-                                                <td>05/06/2018</td>
+                                                <!-- <td>05/06/2018</td> -->
                                                 <td>95</td>
-                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver</a> </button>
-                                                <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal2">Dictamen</button>
+                                                    <td>Aceptado para oratoria</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver detalle</a> </button>
                                                 </td>
                                               </tr>
                                               <tr>
-                                                <td>
+                                                <!-- <td>
                                                   <div class="form-check">
                                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                                   </div>
-                                                </td>
+                                                </td> -->
                                                 <th scope="row">12285311F3</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <td>Santiago Villadolid</td>
-                                                <td>Mario Juarez</td>
+                                                <td>Santiago valladolid <br> Cartel </td>
+                                                <td>Mario Juarez <br> Cartel</td>
                                                 <td>N/A</td>
-                                                <td>05/06/2018</td>
+                                                <!-- <td>05/06/2018</td> -->
                                                 <td>80</td>
-                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver</a> </button>
-                                                <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal2">Dictamen</button>
+                                                <td>Aceptado para oratoria</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver detalle</a> </button>
                                                 </td>
                                               </tr>
                                               <tr>
-                                                <td>
+                                                <!-- <td>
                                                   <div class="form-check">
                                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                                   </div>
-                                                </td>
+                                                </td> -->
                                                 <th scope="row">12285311F3</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <td>Antonio Flores</td>
-                                                <td>Cristian Matias</td>
+                                                <td>Antonio Flores <br> Cartel</td>
+                                                <td>Cristian Matias <br> Cartel</td>
                                                 <td>N/A</td>
-                                                <td>05/06/2018</td>
                                                 <td>50</td>
-                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver</a> </button>
-                                                <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal2">Dictamen</button>
+                                                <td>Aceptado para oratoria</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver detalle</a> </button>
                                                 </td>
                                               </tr>
                                               <tr>
-                                                <td>
+                                                <!-- <td>
                                                   <div class="form-check">
                                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                                   </div>
-                                                </td>
+                                                </td> -->
                                                 <th scope="row">12285311F3</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
                                                 <td>Antonio Flores</td>
                                                 <td>Cristian Matias</td>
                                                 <td>N/A</td>
-                                                <td>05/06/2018</td>
                                                 <td>20</td>
-                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver</a> </button>
-                                                <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal2">Dictamen</button>
+                                                <td>Aceptado para oratoria</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver detalle</a> </button>
                                                 </td>
                                               </tr>
                                               <tr>
-                                                <td>
+                                                <!-- <td>
                                                   <div class="form-check">
                                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                                   </div>
-                                                </td>
+                                                </td> -->
                                                 <th scope="row">12285311F3</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
                                                 <td>Antonio Flores</td>
                                                 <td>Cristian Matias</td>
                                                 <td>N/A</td>
-                                                <td>05/06/2018</td>
                                                 <td>100</td>
-                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver</a> </button>
-                                                <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal2">Dictamen</button>
+                                                <td>Rechazado</td>
+                                                <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button"> <a href="detalle_trabajo_gestor.html" style="color:#fff;">Ver detalle</a> </button>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -1521,12 +1770,9 @@
                                                 <th scope="col">Folio</th>
                                                 <th scope="col">Título</th>
                                                 <th scope="col">Metodología</th>
-                                                <th scope="col">R1</th>
-                                                <th scope="col">R2</th>
-                                                <th scope="col">R3</th>
-                                                <!-- <th scope="col">Fecha de asignación</th> -->
-                                                <th scope="col">Fecha de conclusión</th>
+                                                <th scope="col">Tipo de exposición</th>
                                                 <th scope="col">Puntaje</th>
+                                                <th scope="col">Motivo</th>
                                                 <th scope="col">Opciones</th>
                                               </tr>
                                             </thead>
@@ -1535,13 +1781,9 @@
                                                 <th scope="row">12285311F1</th>
                                                 <td>La medicina general?</td>
                                                 <td>cualitativo</td>
-                                                <td>Juan Cuadros</td>
-                                                <td>Maria Juarez</td>
-                                                <td>Mario Perez</td>
-                                                <!-- <td>05/06/2018</td> -->
-                                                <td>05/06/2018</td>
-
-                                                <td>10</td>
+                                                <td>Oratoria</td>
+                                                <td>90</td>
+                                                <td>Tema relacionado</td>
                                                 <td><a class="col-sm-1 btn btn-theme btn-block submit-button" href="resumen_revision_ti_view.html">Ver</a>
                                                     <!-- <a href="#">Evaluar</a> -->
                                                 </td>
@@ -1550,12 +1792,11 @@
                                                 <th scope="row">12285311F2</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <td>Juan Cuadros</td>
-                                                <td>Maria Juarez</td>
-                                                <td>N/A</td>
-                                                <!-- <td>05/06/2018</td> -->
-                                                <td>05/06/2018</td>
-                                                <td>15</td>
+                                                <td>Oratoria</td>
+
+                                                <td>95</td>
+                                                <td>Tema relacionado</td>
+
                                                 <td><a class="col-sm-1 btn btn-theme btn-block submit-button" href="resumen_revision_ti_view.html">Ver</a>
                                                     <!-- <a href="#">Evaluar</a> -->
                                                 </td>
@@ -1564,21 +1805,18 @@
                                                 <th scope="row">12285311F3</th>
                                                 <td>La medicina general</td>
                                                 <td>cualitativo</td>
-                                                <td>Juan Cuadros</td>
-                                                <td>Maria Juarez</td>
-                                                <td>N/A</td>
+                                                <td>Oratoria</td>
 
-                                                <!-- <td>05/06/2018</td> -->
-                                                <td>05/06/2018</td>
                                                 <!-- <td>Mario Perez</td> -->
-                                                <td>55</td>
+                                                <td>80</td>
+                                                <td>Tema relacionado</td>
+
                                                 <td><a class="col-sm-1 btn btn-theme btn-block submit-button" href="resumen_revision_ti_view.html">Ver</a>
                                                     <!-- <a href="#">Evaluar</a> -->
                                                 </td>
                                               </tr>
                                             </tbody>
                                             </table>
-
 
                                       </div>
                                   </div>
@@ -1881,38 +2119,56 @@
         <div class="modal-dialog modal-dialog-centered"  role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h3 class="modal-title" id="exampleModalLabel">Asignar revisor(es)</h3>
+              <h3 class="modal-title" id="exampleModalLabel">Asignar revisores</h3>
+              <h4>Asigne dos revisores para los trabajos seleccionados</h4>
               <table class="table">
                   <thead>
                     <tr>
                       <th scope="col">Nombre</th>
-                      <th scope="col">Especialidad</th>
-                      <th scope="col">Opciones</th>
+                      <th scope="col">Adscripción</th>
+                      <th scope="col">Trabajos pendientes</th>
+                      <th scope="col">Seleccionar</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <th scope="row">Juan Cuadros </th>
-                      <td>Diabetes</td>
-                      <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
+                      <td>IMSS</td>
+                      <td>19</td>
+                      <td>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        </div>
                       </td>
                     </tr>
                     <tr>
                       <th scope="row">Mariana Reyes</th>
-                      <td>Medicina general</td>
-                      <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
+                      <td>IMSS</td>
+                      <td>19</td>
+                      <td>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        </div>
                       </td>
                     </tr>
                     <tr>
                       <th scope="row">Cristina Pacheco</th>
-                      <td>Neurocirugia</td>
-                      <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
+                      <td>IMSS</td>
+                      <td>19</td>
+                      <td>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        </div>
                       </td>
                     </tr>
                     <tr>
                       <th scope="row">Cristina Pacheco</th>
-                      <td>Neurocirugia</td>
-                      <td><button type="button" data-animation="flipInY" data-animation-delay="100" class="col-sm-1 btn btn-theme btn-block submit-button" data-toggle="modal" data-target="#exampleModal">Asignar</button>
+                      <td>UNAM</td>
+                      <td>19</td>
+                      <td>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        </div>
                       </td>
                     </tr>
 
@@ -1929,7 +2185,7 @@
             </div>
             <div class="modal-footer">
               <!-- <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block submit-button" data-dismiss="modal">cerrar</button> -->
-              <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block" class="btn btn-primary">Guardar</button>
+              <button type="button" data-animation="flipInY" data-animation-delay="100" class="btn btn-theme btn-block" class="btn btn-primary">Asignar</button>
             </div>
           </div>
         </div>

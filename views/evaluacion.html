@@ -359,8 +359,8 @@
                   </div>
                   <div id="hideEvaluacion" class="panel panel-default" style="display:none;">
                     <div class="panel-body">
-                        <input type="radio" name="fines" value="educativo"> Es de caracter educativo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="radio" name="fines" value="conflicto"> Conflicto de intereses
+                        <input type="checkbox" name="fines" value="educativo"> Es de caracter educativo en salud &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="checkbox" name="fines" value="conflicto"> No tengo conflicto de interes para revisar
                         <section class="rubro" id="seccion1">
                           <p class="textRubro">CALIDAD DE RESUMEN</p>
                           <img class="arrow-black" src="../public/img/arrowdownblack.png" alt="">
@@ -627,6 +627,14 @@
                             <br>
                           </form>
                         </section>
+                        <label for="">Escriba sus observaciones</label><br>
+                        <textarea name="name" rows="8" cols="80"></textarea><br> <br><br>
+                        <label for="">Sugerencia de dictamen</label>
+                        <select class="" name="">
+                          <option value="">Cartel</option>
+                          <option value="">Oratoria</option>
+                          <!-- <option value="">Rechazar</option> -->
+                        </select>
                         <section id="sec_b">
                           <a href="resumen_revision_ti_view.html" class="btn btn-theme btn-block submit-button animated flipInY visible">Finalizar evaluación </a>  <i class="fa fa-arrow-circle-right"></i></button>
                         </section>
