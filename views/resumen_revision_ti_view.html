@@ -27,6 +27,7 @@
     <link href="../public/assets/css/theme.css" rel="stylesheet">
     <link href="../public/assets/css/custom.css" rel="stylesheet">
 
+
     <!-- CSS Customize by Cheko or Ale!-->
     <link href="../public/css/resumen_revision_ti.css" rel="stylesheet">
     <link href="../public/css/evaluacion_revisor.css" rel="stylesheet">
@@ -354,51 +355,45 @@
                     <h3>Trabajos de investigación por las evaluaciones</h3>
                     <br>
                     <section id="graficas">
-                      <img src="../public/img/resumen2.png" alt="" class="media-object" />
+
+
                     </section>
-                    <table class="table">
+                    <br>
+                    <table class="table" id="table">
                       <thead>
                         <tr>
-                          <th scope="col">#</th>
                           <th scope="col">Secciones</th>
                           <th scope="col">Promedio</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <th scope="row">1</th>
                           <td>Aspectos éticos</td>
-                          <td>70%</td>
+                          <td>70</td>
                         </tr>
                         <tr>
-                          <th scope="row">2</th>
                           <td>Trascendencia</td>
-                          <td>60%</td>
+                          <td>60</td>
                         </tr>
                         <tr>
-                          <th scope="row">3</th>
                           <td>Calidad metodológica (Mixtas)</td>
-                          <td>50%</td>
+                          <td>50</td>
                         </tr>
                         <tr>
-                          <th scope="row">4</th>
                           <td>Calidad metodológica (Cualitativas)</td>
-                          <td>40%</td>
+                          <td>40</td>
                         </tr>
                         <tr>
-                          <th scope="row">5</th>
                           <td>Calidad metodológica (Cuantitativas)</td>
-                          <td>30%</td>
+                          <td>30</td>
                         </tr>
                         <tr>
-                          <th scope="row">6</th>
                           <td>Calidad metodológica (Originalidad)</td>
-                          <td>20%</td>
+                          <td>20</td>
                         </tr>
                         <tr>
-                          <th scope="row">7</th>
                           <td>Calidad de resumen</td>
-                          <td>10%</td>
+                          <td>10</td>
                         </tr>
                       </tbody>
                     </table>
@@ -482,11 +477,18 @@
 <script src="../public/assets/js/theme.js"></script>
 <script src="../public/assets/js/custom.js"></script>
 
+<!-- Highchart-->
+<script src="../public/assets/highcharts/highcharts.js"></script>
+<script src="../public/assets/highcharts/data.js"></script>
+<script src="../public/assets/highcharts/modules/exporting.js"></script>
+
+<script src="../public/js/opciones_highchart.js"></script>
 <script src="../public/js/funcionalidad_cascada.js"></script>
 
 <script type="text/javascript">
     jQuery(document).ready(function () {
         theme.init();
+        chart("graficas", "table", null, null, ['#0095bc','#98c56e']);
     });
 
     jQuery(document).ready(function () { theme.onResize(); });
